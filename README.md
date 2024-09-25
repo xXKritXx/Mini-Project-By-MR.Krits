@@ -1,4 +1,4 @@
-# Mini ProJ3k
+# Mini ProJect
 นาย ธนกฤต ศรีภา</br>
 1640701395</br>
 No.2</br>
