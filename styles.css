@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    /* เพิ่มสีพื้นหลังที่อ่อนสบายตา */
+    color: #333;
+    /* ตั้งค่าสีข้อความให้ดูเป็นมืออาชีพ */
+}
+
+.navbar {
+    background-color: #343a40;
+    /* เปลี่ยนสีพื้นหลังเป็นสีเข้ม */
+    border-bottom: 2px solid #000000;
+    /* เพิ่มขอบล่างเพื่อให้ดูเด่น */
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff !important;
+    /* เปลี่ยนสีตัวอักษรใน Navbar เป็นสีขาว */
+}
+
+.nav-link:hover {
+    color: #f76a47 !important;
+    /* เพิ่มเอฟเฟกต์ hover ให้ลิงก์ */
+}
+
+.hero {
+    background-color: #000000;
+    /* เปลี่ยนสีพื้นหลังของ hero เป็นน้ำเงิน */
+    color: rgb(255, 255, 255);
+    padding: 100px 0;
+    text-align: center;
+    background-image: linear-gradient(45deg, #9e9fa1, #353535);
+    /* เพิ่มการไล่สี */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* เพิ่มเงา */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    /* ขยายขนาดฟอนต์ */
+    font-weight: bold;
+    /* เพิ่มความหนา */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    /* เพิ่มเงาให้ข้อความ */
+}
+
+
+
+.container h1,
+h3 {
+    margin-bottom: 40px;
+    /* เพิ่มช่องว่างระหว่างหัวข้อ */
+    color: #007bff;
+    /* เปลี่ยนสีหัวข้อให้เด่น */
+    font-weight: bold;
+}
+
+.container h4 {
+    font-size: 3rem;
+    /* ขยายขนาดฟอนต์ */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    /* เพิ่มเงาให้ข้อความ */
+    margin-bottom: 40px;
+    /* เพิ่มช่องว่างระหว่างหัวข้อ */
+    color: #ffffff;
+    /* เปลี่ยนสีหัวข้อให้เด่น */
+    font-weight: bold;
+}
+
+.table {
+    margin-top: 30px;
+    background-color: #fff;
+    /* เพิ่มพื้นหลังสีขาวให้ตาราง */
+    border-radius: 10px;
+    /* เพิ่มความโค้งมน */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* เพิ่มเงา */
+}
+
+.table th,
+.table td {
+    text-align: center;
+    padding: 15px;
+    /* เพิ่มช่องว่างภายในเซลล์ */
+    border-bottom: 1px solid #dee2e6;
+    /* เส้นขอบเบาๆ */
+}
+
+.table th {
+    background-color: #007bff;
+    /* สีหัวข้อของตาราง */
+    color: white;
+}
+
+.form-control {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    /* เพิ่มความโค้งมนให้ฟอร์ม */
+    border: 1px solid #ced4da;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    /* เพิ่มเงาเบาๆ */
+}
+
+footer {
+    background-color: #343a40;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    border-top: 3px solid #007bff;
+    /* เพิ่มขอบบน */
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    /* สีตอน hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* เพิ่มเงา */
+}
